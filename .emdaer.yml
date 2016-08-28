@@ -1,0 +1,20 @@
+- title: true
+- shields:
+    style: 'flat-square'
+    shields:
+      - alt: 'flipactual'
+        image: 'badge/😋-flipactual-218AC7.svg'
+        link: 'https://www.flipactual.com/'
+      - alt: 'Travis'
+        image: 'travis/flipactual/arcana.svg'
+        link: 'https://travis-ci.org/flipactual/arcana/'
+      - alt: 'Node'
+        image: 'node/v/arcana.svg'
+        link: 'http://npmjs.com/package/arcana'
+      - alt: 'NPM'
+        image: 'npm/v/arcana.svg'
+        link: 'http://npmjs.com/package/arcana'
+- text: 'a tarot deck generator'
+- include: './docs/scripts.md'
+- jsdoc: './lib/Deck.js'
+- license: true

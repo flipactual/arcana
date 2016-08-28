@@ -1,0 +1,31 @@
+{
+  "name": "arcana",
+  "version": "0.0.0",
+  "description": "a tarot deck generator",
+  "repository": "flipactual/arcana",
+  "license": "MIT",
+  "author": {
+    "name": "Flip",
+    "id": 1306968,
+    "url": "https://github.com/flipactual"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=html ava && open ./coverage/index.html",
+    "lint": "eslint .",
+    "readme": "emdaer"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "emdaer": "^0.3.2",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-ava": "^3.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "nyc": "^8.1.0"
+  }
+}
